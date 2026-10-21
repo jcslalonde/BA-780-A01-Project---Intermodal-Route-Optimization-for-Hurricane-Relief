@@ -34,3 +34,9 @@ Intermodal Facilities
 Census Data
 (https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html) (Size: 1960 x 10 | Files: 1 | 153.2 KB)
 Annual Estimates of the Resident Population for Incorporated Places of 20,000 or More, Ranked by July 1, 2025 Population: April 1, 2020 to July 1, 2025 (SUB-IP-EST2025-ANNRNK)
+
+# Contributors
+- Alexander Renaud (Manager)
+- Julian LaLonde
+- Alejandra Hurtado Burghardt
+- Chao-Tsun (Sonic) Hsu
