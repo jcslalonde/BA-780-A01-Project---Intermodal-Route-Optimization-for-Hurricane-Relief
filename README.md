@@ -1,6 +1,6 @@
 ## BA-780-A01-Project---Intermodal-Route-Optimization-for-Hurricane-Relief
 
-#Summary
+# Summary
 This repo summarizes the steps taken in a project looking to create an optimization function for U.S. rail and freight routing.
 The Southern and Eastern states of the U.S. have long-since been of the highest risk stats for humanitarian crises, due to the volume of hurricanes which affect them. In this project, we look to build an optimal, intermodal, relief network for providing affected areas with necessary supplies after the natural disaster strikes. This study incorporates hurricane movement prediction based on historical storm data and optimization of U.S. freight and trucking routes. For the scope of the project, we will be looking at 9 states which have historically seen the highest volume of hurricanes, and limit relief planning to cities of a population over 150,000.
 
@@ -11,10 +11,10 @@ To predict how a hurricane will move after it hits land, we use historical hurri
 In some cases, there might not be a need for a train. For example, if the nearest (safe to access by rail) hub to a flagged city is in Dallas, it can be assumed that since Dallas will have greater access to supplies, we can limit the network to trucks from Dallas to the city in need. However, if our example was a hurricane hitting Jackson, MS, with the Natchez hub being the nearest safely accessible hub by rail (for context, this is a hub outside of a city of 14,520 people), then we would need to get a train from a city that has enough supply to provide relief.
 To clear up definitions, we will say that a safe range for the rail component must be outside of the radius of the storm. As for the city providing relief, it must be at least half a million in population. Optimization will be defined by the minimum time it takes for supplies to reach the city in need of aid. Success will be measured by the % of optimal routes that achieve this solution within 3 days (the standard maximum time as per humanitarians).
 
-#Motivation:
+# Motivation:
 Hurricanes present a unique humanitarian logistics challenge, as communities in need of supplies can become the most difficult to reach. Transportation infrastructure can become damaged or inaccessible, requiring relief efforts to adapt quickly. This will explore how freight rail and trucking can be integrated to improve response and supply delivery.
 
-#Data Sources:
+# Data Sources:
 Historical hurricane data from NOAA, which records the exact path of every major storm every six hours: where it was, how strong its winds were, and where it made landfall (https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2025-02272026.txt). 
 (Size: 55,605 x 13 | 1 txt file | 5.1 MB)
 Ocean temperature (https://climatedataguide.ucar.edu/sites/default/files/2022-03/amo_monthly.txt)  
